@@ -1,0 +1,31 @@
+{
+  "name": "express-action",
+  "version": "1.0.0",
+  "description": "express in action",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xinyang3/express-action.git"
+  },
+  "keywords": [
+    "express",
+    "action"
+  ],
+  "author": "xinyang3",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xinyang3/express-action/issues"
+  },
+  "homepage": "https://github.com/xinyang3/express-action#readme",
+  "dependencies": {
+    "eslint": "^6.8.0",
+    "express": "^4.17.1",
+    "http": "^0.0.1-security",
+    "jslint": "^0.12.1",
+    "morgan": "^1.10.0"
+  }
+}

@@ -9,18 +9,20 @@ var path = require("path");
 var express = require("express");
 var logger = require("morgan");
 var bodyParser = require("body-parser");
+var data = require('./apis/data');
 
 var app = express();
 app.set("views", path.resolve(__dirname, ".", "views"));
 app.set("view engine", "ejs");
 
 var entries = [];
+entries.push(...data);
 app.locals.entries = entries;
 app.use(logger("dev"));
 app.use(bodyParser.urlencoded({ extended: false }));
 
 app.get("/", function (request, response) {
-    response.render("index");
+    response.render("index", {entries: entries});
 });
 app.get("/new-entry", function (request, response) {
     response.render("new-entry");

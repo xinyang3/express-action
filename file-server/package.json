@@ -1,0 +1,16 @@
+{
+  "name": "file-server",
+  "version": "1.0.0",
+  "description": "express action static file server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "express",
+    "fs-server"
+  ],
+  "author": "xinyang3",
+  "license": "ISC"
+}

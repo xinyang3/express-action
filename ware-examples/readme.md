@@ -1,6 +1,5 @@
 ## 描述
 
-``
 express 分模块进行的练习
 ware-examples
   |-- app1.js 中间件
@@ -9,4 +8,3 @@ ware-examples
   |-- app4.js 静态文件服务器
   |-- app5.js 路由的处理
   |-- ... 服务器端渲染页面
-``

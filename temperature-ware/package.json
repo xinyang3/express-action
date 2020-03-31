@@ -1,0 +1,15 @@
+{
+  "name": "temperature-ware",
+  "version": "1.0.0",
+  "description": "express action temperature ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "temperature"
+  ],
+  "author": "xinyang3",
+  "license": "ISC"
+}

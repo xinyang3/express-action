@@ -1,5 +1,5 @@
 {
-  "name": "file-server",
+  "name": "middleware",
   "version": "1.0.0",
   "description": "express action static file server",
   "main": "index.js",
